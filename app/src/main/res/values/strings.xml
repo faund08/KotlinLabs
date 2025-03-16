@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">labs</string>
+    <string name="name">CHAIKA SERHII</string>
+    <string name="job_title">FRONT-END DEVELOPER</string>
+    <string name="email">Email: faundcs@gmail.com</string>
+    <string name="phone_number"> Phone: +380 50 773 94 46</string>
+    <string name="profile_image_desc">Profile picture</string>
+    <string name="img_desc1">Cool Nagumo</string>
+    <string name="img_desc2">Chill Nagumo</string>
+    <string name="img_desc3">Friendly Nagumo</string>
+    <string name="img_desc4">Weaponed Nagumo</string>
+    <string name="img_desc5">Ringing Nagumo</string>
+    <string name="img_desc6">Fighting Nagumo</string>
+    <string name="img_desc7">Waiting Nagumo</string>
+</resources>
