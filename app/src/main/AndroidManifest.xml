@@ -26,6 +26,9 @@
         <activity android:name=".FirstLab" />
         <activity android:name=".SecondLab" />
         <activity android:name=".ThirdLab" />
+        <activity android:name=".FourthLab" />
+        <activity android:name=".Lab6Screen" />
     </application>
+        <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

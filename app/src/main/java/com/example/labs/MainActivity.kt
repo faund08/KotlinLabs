@@ -91,5 +91,37 @@ fun MainScreen() {
         ) {
             Text("Third lab", fontSize = 35.sp,)
         }
+        Spacer(modifier = Modifier.height(15.dp))
+
+        Button(onClick = {
+            val intent = Intent(context, FourthLab::class.java)
+            context.startActivity(intent)
+        },
+            modifier = Modifier
+                .width(350.dp)
+                .height(75.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color.White,
+                contentColor = Color.Black
+            )
+        ) {
+            Text("Fourth/Fifth lab", fontSize = 35.sp,)
+        }
+        Spacer(modifier = Modifier.height(15.dp))
+
+        Button(onClick = {
+            val intent = Intent(context, Lab6Screen::class.java)
+            context.startActivity(intent)
+        },
+            modifier = Modifier
+                .width(350.dp)
+                .height(75.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color.White,
+                contentColor = Color.Black
+            )
+        ) {
+            Text("Sixth lab", fontSize = 35.sp,)
+        }
     }
 }
